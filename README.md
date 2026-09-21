@@ -159,16 +159,3 @@ For a future revision:
 - TB6612FNG can control two smaller DC motors.
 - BTS7960 is a high-current single-motor driver and is better suited to a high-current traction motor than a TB6612FNG, while a second driver can handle the N20 steering motor.
 
-## Repository structure
-
-```text
-esp32-mini-drift-car/
-├── README.md
-├── LICENSE
-├── .gitignore
-├── src/
-│   └── mini_drift_car.ino
-└── docs/
-    ├── wiring.md
-    └── testing.md
-```
